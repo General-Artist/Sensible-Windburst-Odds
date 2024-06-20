@@ -82,7 +82,7 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -103,14 +103,14 @@
           "functions": [
             {
               "add": false,
-              "enchantments": {
-                "minecraft:wind_burst": 1.0
-              },
-              "function": "minecraft:set_enchantments"
+              "function":"enchant_randomly",
+              "options" : [
+                "minecraft:wind_burst"
+              ]
             }
           ],
           "name": "minecraft:book",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
